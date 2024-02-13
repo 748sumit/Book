@@ -9,7 +9,7 @@ public class DBConnect {
 	{
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");  
-conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/ebook-app","root","1234");
+conn=DriverManager.getConnection("jdbc:mysql://viaduct.proxy.rlwy.net:30023/railway","root","CGHHcHbCEG-Ef64g4Ad-ef4C5agGbBHD");
 		}
 		catch(Exception e)
 		{
